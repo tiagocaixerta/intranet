@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intranet da Empresa</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #005575;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            border-bottom: 2px solid #005575;
+            padding-bottom: 5px;
+        }
+        button {
+            margin-right: 10px;
+            margin-bottom: 10px;
+            padding: 8px 12px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilos para responsividade */
+        @media only screen and (max-width: 600px) {
+            main {
+                padding: 10px;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            button {
+                padding: 6px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Intranet da Empresa</h1>
+    </header>
+    <main>
+        <section id="rh">
+            <h2>Recursos Humanos</h2>
+            <ul id="rh-services">
+                <li>Recrutamento</li>
+                <li>Capacitação</li>
+            </ul>
+            <a href="https://exame.com/noticias-sobre/recursos-humanos/">Ver Notícias de RH</a>
+        </section>
+        <section id="noticias">
+            <h2>Notícias</h2>
+            <!-- Lista de notícias poderia vir aqui -->
+        </section>
+        <section id="politica">
+            <h2>Política da Empresa</h2>
+            <!-- Texto sobre a política da empresa -->
+            <a href="noticias_politica.html">Ver Notícias de Política</a>
+        </section>
+        <section id="departamentos">
+            <h2>Departamentos</h2>
+            <a href="https://br.investing.com/news/stock-market-news">Financeiro</a>
+            <br>
+            <a href="https://www.tecmundo.com.br/tecnologia-da-informacao">TI</a>
+        </section>
+    </main>
+</body>
+</html>
